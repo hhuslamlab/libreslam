@@ -1,0 +1,26 @@
+{% assign sponsor_year = site.sponsor-years | last %}
+
+<nav class="navbar navbar-default" role="navigation" id="main-nav">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".top-nav-collapse">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+  <!-- <a class="" href="/"> -->
+  <!--   <img src="/img/slamlab-logo.jpeg" id="logo" alt="Logo" width="300" height="400"> -->
+  <!-- </a> -->
+
+  <div id="main-nav-container" class="collapse navbar-collapse top-nav-collapse">
+    <ul class="nav pull-left navbar-nav main-nav-links inline-list">
+      <li {% if page.nav == "home" %} class="active" | {% endif %} ><a href="/">Home</a></li>
+      <li {% if page.nav == "get_involved" %} class="active" | {% endif %} ><a href="/get_involved.html">Get Involved</a></li>
+    </ul>
+
+    <ul class="nav pull-right navbar-nav main-nav-links inline-list">
+      <li {% if page.nav == "archive" %} class="active" | {% endif %} ><a href="/archive">Archive</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>

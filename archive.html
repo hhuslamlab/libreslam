@@ -1,0 +1,28 @@
+---
+layout: page
+nav: archive
+title: Archive
+redirect_from:
+ - /schedule/
+---
+
+{% assign conferences = site.archive-conferences | reverse %}
+
+<div class="text-center">
+  <h1>Archive</h1>
+
+  {% for conference in conferences %}
+  {% capture year %}{{ conference.slug }}{% endcapture %}
+
+  <div style="margin-bottom: 1em;">
+    <h2>
+      <a href="{{ conference.url }}">LibreSlam {{ year }}</a>
+    </h2>
+
+    {% if conference.subtitle %}
+    <div style="font-style: italic;">{{ conference.subtitle }}</div>
+    {% endif %}
+  </div>
+
+  {% endfor %}
+</div>

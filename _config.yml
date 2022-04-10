@@ -1,0 +1,91 @@
+safe:           true
+lsi:            false
+future:         false
+timezone:       Germany/Berlin
+markdown:       kramdown
+highlighter:    rouge
+
+# Allowed plugins: https://pages.github.com/versions/
+plugins: &plugins
+    - jekyll-paginate
+    - jekyll-redirect-from
+whitelist: *plugins
+
+paginate:       10
+paginate_path:  news/page:num
+
+name:           LibreSlam
+short_name:     LibreSlam
+description:    LibreSlam
+origin: &origin https://slam.phil.hhu.de/libreslam
+
+# jekyll-redirect-from configuration
+url: *origin
+
+permalink:      /:categories/:year/:month/:day/:title.html
+
+collections:
+    archive-conferences:
+        output: true
+        permalink: /archive/:path
+    archive-sessions:
+        output: true
+        permalink: /archive/:path
+
+defaults:
+    - scope: { type: archive-conferences }
+      values:
+        layout: archive/conference
+        nav: archive
+    - scope: { type: archive-sessions }
+      values:
+        layout: archive/session
+        nav: archive
+
+exclude:
+    - backstop
+    - backstop.json
+    - Dockerfile
+    - Rakefile
+
+    # Pending jekyll/jekyll#7188
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+
+custom:
+    year:                   2022
+    dates:                  July 1st
+    location:               Virtual
+    license:
+        content:            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+
+        site_code:          <a href="https://github.com/hhuslamlab/libreslam/blob/main/LICENSE">GPL v3.0</a>
+    url:
+        edit_page_base:     https://github.com/
+        irc:
+            network:
+            webchat:
+        location:           https://hhu.de/
+        prospectus:
+        register:
+        cfp:
+    a:
+        email:
+            participate:    <a href="mailto:slamlab@hhu.de">slamlab@hhu.de</a>
+        social:
+            github:         <a href="https://github.com/hhuslamlab/">GitHub</a>
+            twitter:        <a href="https://twitter.com/SLaMLab_HHU/">Twitter</a>
+            website:        <a href="https://slam.phil.hhu.de/">Slamlab</a>
+        location:
+        donate:
+    maps:
+      google:
+        apikey:
+sass:
+    sass_dir: _sass
+    style: compressed

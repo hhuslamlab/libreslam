@@ -1,0 +1,12 @@
+_site
+
+.bundle
+.jekyll-metadata
+vendor/
+
+*.*~
+*~
+*.log
+*.gz
+*.swp
+
