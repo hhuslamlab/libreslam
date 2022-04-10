@@ -2,9 +2,7 @@
 
 # LibreSlam
 
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-
-[![Ruby](https://badgen.net/badge/icon/ruby?icon=ruby&label)](https://https://ruby-lang.org/)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/hhuslamlab/libreslam/blob/master/LICENSE) [![Ruby](https://badgen.net/badge/icon/ruby?icon=ruby&label)](https://https://ruby-lang.org/)
 
 This is the source code for the [LibreSlam workshop](https://slam.phil.hhu.de/libreslam).
 
