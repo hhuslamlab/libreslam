@@ -64,7 +64,7 @@ custom:
     license:
         content:            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
 
-        site_code:          <a href="https://github.com/hhuslamlab/libreslam/blob/main/LICENSE">GPL v3.0</a>
+        site_code:          <a href="https://github.com/hhuslamlab/libreslam/blob/0b4d3a4034cc9b1b1ebf7fb82993296fe66cd75c/LICENSE">GPL v3.0</a>
     url:
         edit_page_base:     https://github.com/
         irc:
