@@ -15,7 +15,7 @@ LibreSlam community meets on HHU RocketChat:
     <div class="panel panel-primary text-center">
       <div class="panel-heading"><h2 class="panel-title">RocketChat</h2></div>
       <div class="panel-body">
-        <p><a class="btn btn-primary btn-large" href="https://rocketchat.hhu.de/invite/fG9vNe">Join Space</a></p>
+        <p><a class="btn btn-primary btn-large" href="https://rockechat.hhu.de/invite/cwZeBj">Join Space</a></p>
       </div>
     </div>
 </div>
