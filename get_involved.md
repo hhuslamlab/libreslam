@@ -23,7 +23,7 @@ Please email us at {{ site.custom.a.email.participate }} if you would like to he
 
 ### Chat
 
-Please join us on [RocketChat](/meet).
+Please join us on [RocketChat](/libreslam/meet).
 
 ### Organizers List
 
