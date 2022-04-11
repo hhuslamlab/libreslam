@@ -17,7 +17,7 @@ paginate_path:  news/page:num
 name:           LibreSlam
 short_name:     LibreSlam
 description:    LibreSlam
-origin: &origin https://slam.phil.hhu.de/libreslam
+origin: &origin https://slam.phil.hhu.de/libreslam/
 
 # jekyll-redirect-from configuration
 url: *origin
@@ -60,7 +60,7 @@ exclude:
 custom:
     year:                   2022
     dates:                  July 1st
-    location:               Virtual
+    location:
     license:
         content:            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
 
