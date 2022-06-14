@@ -20,7 +20,7 @@ At the end of the workshop, researchers will be equipped to design their researc
 
 ### Attend
 
-LibreSlam is **free to attend**, and you **need to register** via the form <a href="https://cryptpad.fr/form/#/3/form/view/e75aa4a3ce650ed9eae178a81eab534a/">here</a>
+LibreSlam is **free to attend**, and you **need to register** via the form <a href="https://cryptpad.fr/form/#/2/form/view/WYNHM9qv75O7NPWYasELohmQrMpi11vfbR7hRGHNmMo/">here</a>
 
 
 <!--
